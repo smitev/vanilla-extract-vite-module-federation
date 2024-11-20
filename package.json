@@ -1,0 +1,22 @@
+{
+  "name": "vanilla-extract-vite-module-federation",
+  "description": "VanillaExtract Vite module federation",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev:host": "yarn workspace host-app run dev",
+    "test": "yarn workspaces foreach -Apvi run test",
+    "build:host": "yarn workspace host-app run build",
+    "build:remotes": "yarn workspaces foreach --exclude host-app -Apvi run build",
+    "serve:host": "yarn workspace host-app run preview",
+    "serve:remotes": "yarn workspaces foreach --exclude host-app -Apvi run preview",
+    "update": "yarn upgrade-interactive"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.3.6"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "packageManager": "yarn@4.5.1"
+}

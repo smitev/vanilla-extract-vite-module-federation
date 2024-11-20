@@ -1,0 +1,1 @@
+# VanillaExtract Vite module federation
