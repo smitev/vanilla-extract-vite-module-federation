@@ -660,13 +660,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@originjs/vite-plugin-federation@npm:^1.3.8":
-  version: 1.3.8
-  resolution: "@originjs/vite-plugin-federation@npm:1.3.8"
+"@originjs/vite-plugin-federation@npm:^1.3.9":
+  version: 1.3.9
+  resolution: "@originjs/vite-plugin-federation@npm:1.3.9"
   dependencies:
     estree-walker: "npm:^3.0.2"
     magic-string: "npm:^0.27.0"
-  checksum: 10c0/c27e44bfeedbb1b6a968c7e73fc0558cdb1b5165207bf5e1876e4b816defa0dbf07db1fe486194fd384e36a20eaf33b096caac3699ef2330964d25df8df1be8e
+  checksum: 10c0/fc5fdc1d8de9ff85fd326a001f912af22aaee5cbe6200afedd7888cf02fa041da679cccf4966ac3145c6f7b594c619120977a243024c7f96a3507cc7a69b2387
   languageName: node
   linkType: hard
 
@@ -2864,7 +2864,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vanilla-extract-vite-module-federation@workspace:."
   dependencies:
-    "@originjs/vite-plugin-federation": "npm:^1.3.8"
+    "@originjs/vite-plugin-federation": "npm:^1.3.9"
   languageName: unknown
   linkType: soft
 
